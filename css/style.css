@@ -1,0 +1,27 @@
+/* Estilo Geral */
+header{font-family:'Galano-Semi',sans-serif;}
+
+
+/* Fonts */
+@font-face {font-family: 'Galano-Medium';src: url('../fonts/Galano-Grotesque-Medium.woff') format('woff'), url('../fonts/Galano-Grotesque-Medium.otf') format('otf');}
+@font-face {font-family: 'Galano-Bold';src: url('../fonts/Galano-Grotesque-Bold.woff') format('woff'), url('../fonts/Galano-Grotesque-Bold.otf') format('otf');}
+@font-face {font-family: 'Galano-Semi';src: url('../fonts/Galano-Grotesque-Semi-Bold.woff') format('woff'), url('../fonts/Galano-Grotesque-Semi-Bold.otf') format('otf');}
+
+
+.rnk-componente-header-bg{background: transparent linear-gradient(180deg, #3D36DA 0%, #00FF7E 100%) 0% 0% no-repeat padding-box;clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 100%);height: 100vh;}
+
+
+.rnk-componente-header-amp nav a img{width: 100px;}
+.rnk-componente-header-amp .menu-header{text-transform: uppercase;font-size:12px;}
+.rnk-componente-header-amp .menu-header li a{color:#fff}
+ .rnk-componente-header-amp .menu-header li {padding-right: 20px;}
+ .rnk-componente-header-amp .menu-header li a:hover{color:#00FF7E}
+ .rnk-componente-header-amp .navbar-toggler{border: none;margin-top: 10px;}
+
+
+ @media(max-width:768px){
+/* .rnk-componente-header-bg{background:#fff;color:#000}
+.rnk-componente-header-amp .menu-header li a{color:#000} */
+
+
+} 
